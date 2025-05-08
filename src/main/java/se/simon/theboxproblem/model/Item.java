@@ -11,9 +11,9 @@ public enum Item {
     ITEM_8(8, 1, 5),
     ITEM_9(9, 1, 9);
 
-  private int id;
-  private int width;
-  private int height;
+  private final int id;
+  private final int width;
+  private final int height;
 
   Item(int id, int width, int height) {
     this.id = id;

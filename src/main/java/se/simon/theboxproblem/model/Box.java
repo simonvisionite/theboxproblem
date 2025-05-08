@@ -5,9 +5,9 @@ public enum Box {
   BOX_2(2, 8, 12),
   BOX_3(3, 12, 20);
 
-  private int id;
-  private int width;
-  private int height;
+  private final int id;
+  private final int width;
+  private final int height;
 
   Box(int id, int width, int height) {
     this.id = id;
